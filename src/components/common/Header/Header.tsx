@@ -5,10 +5,13 @@ import logo from "@/images/aflux-logo.png";
 
 const Header = () => {
   return (
-    <div className="fixed z-10 flex flex-row justify-center items-center w-screen bg-white h-[48px] top-[60px]">
+    <div className="fixed z-10 flex flex-row justify-center items-center w-screen bg-white h-[48px] top-[60px] shadow-sm shadow-green-600/10">
       <div className="flex flex-row justify-between items-center w-[60vw]">
         <div>
-          <a className="flex bg-white p-4 rounded-lg" href="/">
+          <a
+            className="flex bg-white p-4 rounded-lg shadow-sm shadow-green-600/10"
+            href="/"
+          >
             <img src={logo.src} alt="logo" width={80} />
           </a>
         </div>
