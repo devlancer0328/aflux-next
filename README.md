@@ -1,4 +1,21 @@
-### Live link: https://goldipl.github.io/aflux-next/ :star:
+## General info
+
+Aflux Next.js website ➡️ written using modern technologies like Next.js 13, TypeScript & TailwindCSS.
+
+## Technologies
+
+Used technologies:
+
+- TypeScript
+- Next.js
+- React.js
+- TailwindCSS
+
+## Live link
+
+- https://goldipl.github.io/aflux-next/ :star:
+
+## Additional info
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
