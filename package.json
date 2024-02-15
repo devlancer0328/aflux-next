@@ -21,7 +21,9 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "css-loader": "^6.10.0",
     "postcss": "^8",
+    "style-loader": "^3.3.4",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }
