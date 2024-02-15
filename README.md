@@ -10,6 +10,7 @@ Used technologies:
 - Next.js
 - React.js
 - TailwindCSS
+- SCSS
 
 ## Live link
 
