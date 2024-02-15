@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: "18.17.0" # Ustawiamy wymaganą wersję Node.js
+          node-version: "18.17.0"
       - name: Install dependencies
         run: npm install
       - name: Build with Next.js
@@ -46,7 +46,7 @@ jobs:
           name: built-site
           path: .next
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
           folder: .next
