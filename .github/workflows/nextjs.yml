@@ -28,7 +28,7 @@ jobs:
             exit 0
           elif [ -f "${{ github.workspace }}/package.json" ]; then
             echo "manager=npm" >> $GITHUB_ENV
-            echo "runner=npx --no-install" >> $GITHUB_ENV
+            echo "runner=npx" >> $GITHUB_ENV
             exit 0
           else
             echo "Unable to determine package manager"
