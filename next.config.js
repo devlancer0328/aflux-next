@@ -14,7 +14,7 @@ module.exports = {
   // Learn more: https://nextjs.org/docs/advanced-features/static-html-export
   output: {
     // Set this to true if you're deploying to a subdirectory
-    // basePath: '/subdirectory',
+    basePath: '/aflux-next',
     // Optionally configure other options such as trailingSlash
     // trailingSlash: true,
   },
