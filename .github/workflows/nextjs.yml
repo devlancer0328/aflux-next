@@ -28,6 +28,7 @@ jobs:
             exit 0
           elif [ -f "${{ github.workspace }}/package.json" ]; then
             echo "manager=npm" >> $GITHUB_ENV
+            echo "runner=npm" >> $GITHUB_ENV
             exit 0
           else
             echo "Unable to determine package manager"
@@ -40,7 +41,7 @@ jobs:
       - name: Install dependencies
         run: ${{ env.runner }} install
       - name: Build with Next.js
-        run: ${{ env.runner }} next build
+        run: ${{ env.runner }} run next build
       - name: Archive artifact
         uses: actions/upload-artifact@v2
         with:
