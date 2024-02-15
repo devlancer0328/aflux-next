@@ -2,6 +2,8 @@
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import "@/components/Hero/swiper.scss";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -31,21 +33,21 @@ export default () => {
     >
       <SwiperSlide>
         <img
-          className="h-screen w-screen object-cover"
+          className="h-screen w-screen object-cover select-none"
           src={img01.src}
           alt="img"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          className="h-screen w-screen object-cover"
+          className="h-screen w-screen object-cover select-none"
           src={img02.src}
           alt="img"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          className="h-screen w-screen object-cover"
+          className="h-screen w-screen object-cover select-none"
           src={img03.src}
           alt="img"
         />
