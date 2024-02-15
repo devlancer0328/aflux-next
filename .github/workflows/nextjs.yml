@@ -41,7 +41,7 @@ jobs:
       - name: Install dependencies
         run: ${{ env.runner }} install
       - name: Build with Next.js
-        run: ${{ env.runner }} run next build
+        run: ${{ env.runner }} run build
       - name: Archive artifact
         uses: actions/upload-artifact@v2
         with:
