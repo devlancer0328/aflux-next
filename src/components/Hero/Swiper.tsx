@@ -9,9 +9,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import img01 from "@/images/hero/pexels01.jpg";
-import img02 from "@/images/hero/pexels02.jpg";
-import img03 from "@/images/hero/pexels03.jpg";
+import img01 from "@/images/hero/pexels-hero-01.jpg";
+import img02 from "@/images/hero/pexels-hero-02.jpg";
+import img03 from "@/images/hero/pexels-hero-03.jpg";
 
 export default () => {
   return (
