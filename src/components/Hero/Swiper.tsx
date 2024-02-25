@@ -16,6 +16,7 @@ import img03 from "@/images/hero/pexels-hero-03.jpg";
 export default () => {
   return (
     <Swiper
+      id="start"
       className="relative h-screen"
       modules={[Navigation, Pagination, Autoplay]}
       spaceBetween={0}
