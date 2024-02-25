@@ -20,7 +20,7 @@ const AfluxInfo = () => {
           </h1>
           <p className="text-lg mb-8">
             Krem do ciała poprawiający jędrność i sprężystość skóry, <br></br>
-            wygładający pory i nadający skórze świetlisty blask.
+            wygładzający pory i nadający skórze świetlisty blask.
           </p>
           <h2 className="text-2xl">
             W czym nasz produkt jest lepszy od innych?
