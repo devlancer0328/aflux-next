@@ -15,7 +15,13 @@ const AfluxInfo = () => {
           />
         </div>
         <div className="flex flex-col ml-16">
-          <h1 className="text-5xl mb-4">Aflux®</h1>
+          <h1 className="text-5xl mb-8">
+            Aflux® <br></br>- przyszłość jest dziś
+          </h1>
+          <p className="text-lg mb-8">
+            Krem do ciała poprawiający jędrność i sprężystość skóry, <br></br>
+            wygładający pory i nadający skórze świetlisty blask.
+          </p>
           <h2 className="text-2xl">
             W czym nasz produkt jest lepszy od innych?
           </h2>
@@ -30,7 +36,8 @@ const AfluxInfo = () => {
               className="relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
             before:bg-green-500 before:rounded-full before:border before:border-green-600"
             >
-              Potwierdzona skuteczność niezliczoną ilością badań laboratoryjnych
+              Potwierdzona skuteczność niezliczoną ilością <br></br>badań
+              laboratoryjnych
             </li>
             <li
               className="relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
