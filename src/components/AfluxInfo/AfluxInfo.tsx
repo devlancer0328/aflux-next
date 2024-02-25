@@ -22,19 +22,19 @@ const AfluxInfo = () => {
           <ul className="my-4 pl-4">
             <li
               className="relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
-            before:bg-green-400 before:rounded-full before:border before:border-green-600"
+            before:bg-green-500 before:rounded-full before:border before:border-green-600"
             >
               Bogata formuła skladników
             </li>
             <li
               className="relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
-            before:bg-green-400 before:rounded-full before:border before:border-green-600"
+            before:bg-green-500 before:rounded-full before:border before:border-green-600"
             >
               Potwierdzona skuteczność niezliczoną ilością badań laboratoryjnych
             </li>
             <li
               className="relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
-            before:bg-green-400 before:rounded-full before:border before:border-green-600 after:inline-block"
+            before:bg-green-500 before:rounded-full before:border before:border-green-600 after:inline-block"
             >
               Źródło wielu składników odżywczych
             </li>
