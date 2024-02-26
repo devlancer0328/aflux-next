@@ -9,6 +9,7 @@ Used technologies:
 - TypeScript
 - Next.js
 - React.js
+- AoS.js
 - TailwindCSS
 - SCSS
 
