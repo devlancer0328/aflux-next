@@ -28,7 +28,9 @@ const Gallery: React.FC = () => {
   return (
     <div className="p-10 bg-white">
       <h1 className="text-5xl mt-8 mb-16 text-center">Galeria</h1>
-      <PhotoAlbum {...albumProps} />
+      <div data-aos="fade-up">
+        <PhotoAlbum {...albumProps} />
+      </div>
     </div>
   );
 };
