@@ -10,6 +10,39 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export default () => {
+  const Opinions = [
+    {
+      opinion_text:
+        "Krem Aflux to rewelacyjny produkt do pielęgnacji ciała. Skóra staje się wyraźnie wygładzona i miękka w dotyku. Lekka formuła kremu szybko się wchłania, a jego bogaty skład dba o intensywne nawilżenie. Polecam każdemu, kto szuka skutecznego i przyjemnego w użyciu kremu do ciała.",
+      opinion_author: "Daniel",
+    },
+    {
+      opinion_text:
+        "Aflux to krem, który zrewolucjonizował moją pielęgnację ciała. Skóra jest po nim niesamowicie gładka i miękka. Bardzo polecam!",
+      opinion_author: "Magda",
+    },
+    {
+      opinion_text:
+        "Jestem zachwycona efektami kremu Aflux. Moja skóra nigdy wcześniej nie była tak dobrze nawilżona i wygładzona. To absolutny must-have w mojej łazience!",
+      opinion_author: "Agnieszka",
+    },
+    {
+      opinion_text:
+        "Krem Aflux to prawdziwa perełka wśród produktów do pielęgnacji ciała. Po jego użyciu skóra odzyskuje jędrność i elastyczność. Jestem pod wrażeniem!",
+      opinion_author: "Karolina",
+    },
+    {
+      opinion_text:
+        "Używam kremu Aflux od kilku tygodni i efekty są rewelacyjne. Moja skóra wygląda znacznie lepiej, jest bardziej nawilżona i wygładzona. To najlepszy krem, jaki kiedykolwiek miałam!",
+      opinion_author: "Aniela",
+    },
+    {
+      opinion_text:
+        "Aflux to mój ulubiony krem do ciała. Jego lekka formuła sprawia, że szybko się wchłania, nie pozostawiając tłustej warstwy. Skóra jest po nim niesamowicie miękka i gładka. Naprawdę warto go wypróbować!",
+      opinion_author: "Małgorzata",
+    },
+  ];
+
   return (
     <>
       <h1 className="text-5xl pt-16 text-center">Opinie</h1>
@@ -30,68 +63,16 @@ export default () => {
         direction="horizontal"
         effect="slide"
       >
-        <SwiperSlide>
-          <div className="flex flex-col items-center justify-center h-full">
-            <p className="text-lg mb-2 w-[50vw] text-center">
-              Krem Aflux to rewelacyjny produkt do pielęgnacji ciała. Skóra
-              staje się wyraźnie wygładzona i miękka w dotyku. Lekka formuła
-              kremu szybko się wchłania, a jego bogaty skład dba o intensywne
-              nawilżenie. Polecam każdemu, kto szuka skutecznego i przyjemnego w
-              użyciu kremu do ciała.
-            </p>
-            <p className="text-sm italic">~ Daniel</p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex flex-col items-center justify-center h-full">
-            <p className="text-lg mb-2 w-[50vw] text-center">
-              Aflux to krem, który zrewolucjonizował moją pielęgnację ciała.
-              Skóra jest po nim niesamowicie gładka i miękka. Bardzo polecam!
-            </p>
-            <p className="text-sm italic">~ Magda</p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex flex-col items-center justify-center h-full">
-            <p className="text-lg mb-2 w-[50vw] text-center">
-              Jestem zachwycona efektami kremu Aflux. Moja skóra nigdy wcześniej
-              nie była tak dobrze nawilżona i wygładzona. To absolutny must-have
-              w mojej łazience!
-            </p>
-            <p className="text-sm italic">~ Agnieszka</p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex flex-col items-center justify-center h-full">
-            <p className="text-lg mb-2 w-[50vw] text-center">
-              Krem Aflux to prawdziwa perełka wśród produktów do pielęgnacji
-              ciała. Po jego użyciu skóra odzyskuje jędrność i elastyczność.
-              Jestem pod wrażeniem!
-            </p>
-            <p className="text-sm italic">~ Karolina</p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex flex-col items-center justify-center h-full">
-            <p className="text-lg mb-2 w-[50vw] text-center">
-              Używam kremu Aflux od kilku tygodni i efekty są rewelacyjne. Moja
-              skóra wygląda znacznie lepiej, jest bardziej nawilżona i
-              wygładzona. To najlepszy krem, jaki kiedykolwiek miałam!
-            </p>
-            <p className="text-sm italic">~ Aniela</p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex flex-col items-center justify-center h-full">
-            <p className="text-lg mb-2 w-[50vw] text-center">
-              Aflux to mój ulubiony krem do ciała. Jego lekka formuła sprawia,
-              że szybko się wchłania, nie pozostawiając tłustej warstwy. Skóra
-              jest po nim niesamowicie miękka i gładka. Naprawdę warto go
-              wypróbować!
-            </p>
-            <p className="text-sm italic">~ Małgorzata</p>
-          </div>
-        </SwiperSlide>
+        {Opinions.map((Opinion) => (
+          <SwiperSlide>
+            <div className="flex flex-col items-center justify-center h-full">
+              <p className="text-lg mb-2 w-[50vw] text-center">
+                {Opinion.opinion_text}
+              </p>
+              <p className="text-sm italic">~ {Opinion.opinion_author}</p>
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );
