@@ -2,7 +2,7 @@
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "@/components/Hero/swiper.scss";
+import "@/components/Hero/hero_swiper.scss";
 
 import "swiper/css";
 import "swiper/css/navigation";
