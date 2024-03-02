@@ -57,12 +57,12 @@ const Products = () => {
         <div className="products-wrapper flex flex-col flex-wrap gap-10 justify-center items-center">
           {ProductsItemsList.map((ProductsListItem) => (
             <div
-              className="products-wrapper__slot flex flex-row justify-center items-center my-16"
+              className="products-wrapper__slot flex flex-col lg:flex-row justify-center items-center my-16"
               data-aos="fade-up"
             >
               <div className="flex flex-col">
                 <img
-                  className="me-10"
+                  className="lg:me-10"
                   src={ProductsListItem.source}
                   alt={ProductsListItem.alt_text}
                   width={ProductsListItem.width}
@@ -70,13 +70,13 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col">
-                <p className="text-xl mb-4 font-bold">
+                <p className="text-xl mb-4 mt-4 m-auto font-bold lg:mt-0 lg:ms-0">
                   {ProductsListItem.text}
                 </p>
-                <p className="text-sm mb-4 w-[30vw]">
+                <p className="text-sm mb-4 m-auto w-4/5 lg:w-[30vw]">
                   {ProductsListItem.text_description}
                 </p>
-                <p className="text-xl">
+                <p className="text-xl m-auto lg:ms-0">
                   Cena:{" "}
                   <span className="text-2xl font-bold">
                     {ProductsListItem.price}
