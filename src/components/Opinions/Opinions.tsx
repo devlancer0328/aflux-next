@@ -46,7 +46,7 @@ export default () => {
   return (
     <>
       <h1
-        className="text-3xl lg:text-5xl text-center pt-16 lg:pt-32"
+        className="text-black text-3xl lg:text-5xl text-center pt-16 lg:pt-32"
         id="opinions"
       >
         Opinie
@@ -70,8 +70,10 @@ export default () => {
         {Opinions.map((Opinion) => (
           <SwiperSlide>
             <div className="flex flex-col items-center justify-center h-full">
-              <p className="italic text-sm lg:text-lg mb-2 w-[50vw] text-center">
-                <span className="text-3xl font-extrabold me-3">”</span>
+              <p className="text-black italic text-sm lg:text-lg mb-2 w-[50vw] text-center">
+                <span className="text-black text-3xl font-extrabold me-3">
+                  ”
+                </span>
                 {Opinion.opinion_text}
               </p>
               <p className="italic text-xs lg:text-sm text-orange-600">

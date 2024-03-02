@@ -6,22 +6,24 @@ const Contact = () => {
   return (
     <div className="flex bg-green-50 w-full justify-center" id="contact">
       <div className="flex flex-col container mx-xl pt-16 pb-0 lg:py-24 justify-center items-center">
-        <h1 className="text-3xl lg:text-5xl mb-16">Kontakt</h1>
+        <h1 className="text-black text-3xl lg:text-5xl mb-16">Kontakt</h1>
         <div className="relative flex flex-col lg:flex-row justify-between items-center w-full">
           <div className="flex flex-col border-4 border-white w-full me-0 mb-6 lg:me-8 lg:mb-0 h-[200px] rounded-2xl px-4 lg:px-12 items-start justify-center shadow-inner">
             <p className="mb-2">
-              <strong className="me-4 font-extrabold">E-mail:</strong>
+              <strong className="text-black me-4 font-extrabold">
+                E-mail:
+              </strong>
               <a
-                className="hover:text-green-600 text-sm"
+                className="text-black hover:text-green-600 text-sm"
                 href="mailto:kontakt@aflux.pl"
               >
                 kontakt@aflux.pl
               </a>
             </p>
             <p className="mb-2">
-              <strong className="me-4 font-extrabold">Tel.:</strong>
+              <strong className="text-black me-4 font-extrabold">Tel.:</strong>
               <a
-                className="hover:text-green-600 text-sm"
+                className="text-black hover:text-green-600 text-sm"
                 href="tel:+48 777 999 999"
               >
                 +48 777 999 999

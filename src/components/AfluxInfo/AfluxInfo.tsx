@@ -23,35 +23,35 @@ const AfluxInfo = () => {
           />
         </div>
         <div className="flex flex-col mx-8 lg:ml-16" data-aos="fade-up">
-          <h1 className="text-4xl lg:text-5xl mb-8">
-            <span className="flex">Aflux®</span>
-            <span className="inline-flex text-2xl lg:text-3xl">
+          <h1 className="text-4xl lg:text-5xl mb-8 text-black">
+            <span className="flex text-black">Aflux®</span>
+            <span className="inline-flex text-2xl lg:text-3xl text-black">
               - przyszłość jest dziś
             </span>
           </h1>
-          <p className="text-sm lg:text-lg mb-8">
+          <p className="text-black text-sm lg:text-lg mb-8">
             Krem do ciała poprawiający jędrność i sprężystość skóry, <br></br>
             wygładzający pory i nadający skórze świetlisty blask.
           </p>
-          <h2 className="text-xl lg:text-2xl">
+          <h2 className="text-black text-xl lg:text-2xl">
             W czym nasz produkt jest lepszy od innych?
           </h2>
           <ul className="my-4 pl-4">
             <li
-              className="text-sm lg:text-lg relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
+              className="text-black text-sm lg:text-lg relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
             before:bg-green-500 before:rounded-full before:border before:border-green-600"
             >
               Bogata formuła skladników
             </li>
             <li
-              className="text-sm lg:text-lg relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
+              className="text-black text-sm lg:text-lg relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
             before:bg-green-500 before:rounded-full before:border before:border-green-600"
             >
               Potwierdzona skuteczność niezliczoną ilością <br></br>badań
               laboratoryjnych
             </li>
             <li
-              className="text-sm lg:text-lg relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
+              className="text-black text-sm lg:text-lg relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
             before:bg-green-500 before:rounded-full before:border before:border-green-600 after:inline-block"
             >
               Źródło wielu składników odżywczych

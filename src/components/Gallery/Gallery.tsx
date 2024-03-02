@@ -34,7 +34,9 @@ const Gallery: React.FC = () => {
 
   return (
     <div className="py-16 lg:py-32 bg-white" id="gallery">
-      <h1 className="text-3xl lg:text-5xl mt-8 mb-16 text-center">Galeria</h1>
+      <h1 className="text-black text-3xl lg:text-5xl mt-8 mb-16 text-center">
+        Galeria
+      </h1>
       <div data-aos="fade-up">
         <PhotoAlbum {...albumProps} />
       </div>

@@ -53,7 +53,7 @@ const Products = () => {
   return (
     <div className="flex bg-white w-full justify-center" id="products">
       <div className="flex flex-col container py-16 lg:py-32 justify-center items-center">
-        <h1 className="text-3xl lg:text-5xl mb-4">Produkty</h1>
+        <h1 className="text-black text-3xl lg:text-5xl mb-4">Produkty</h1>
         <div className="products-wrapper flex flex-col flex-wrap gap-10 justify-center items-center">
           {ProductsItemsList.map((ProductsListItem) => (
             <div
@@ -70,15 +70,15 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col">
-                <p className="text-xl mb-4 mt-4 m-auto font-bold lg:mt-0 lg:ms-0">
+                <p className="text-black text-xl mb-4 mt-4 m-auto font-bold lg:mt-0 lg:ms-0">
                   {ProductsListItem.text}
                 </p>
-                <p className="text-sm text-justify mb-4 m-auto w-4/5 lg:w-[36vw]">
+                <p className="text-black text-sm text-justify mb-4 m-auto w-4/5 lg:w-[36vw]">
                   {ProductsListItem.text_description}
                 </p>
-                <p className="text-xl m-auto lg:ms-0">
+                <p className="text-black text-xl m-auto lg:ms-0">
                   Cena:{" "}
-                  <span className="text-2xl font-bold">
+                  <span className="text-black text-2xl font-bold">
                     {ProductsListItem.price}
                   </span>{" "}
                   zł
