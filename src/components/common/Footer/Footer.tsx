@@ -17,7 +17,7 @@ const Footer = () => {
             <ul className="flex flex-wrap m-4 text-center flex-row items-center justify-between">
               {HEADER_LINKS.map((link) => (
                 <Link
-                  className="p-4 text-sm text-white hover:text-black"
+                  className="p-4 text-sm text-white hover:text-orange-600"
                   href={link.href}
                   key={link.key}
                 >
@@ -33,7 +33,7 @@ const Footer = () => {
           <p className="text-sm m-4 text-white">
             Coded with ❤️ by{" "}
             <a
-              className="hover:text-black"
+              className="hover:text-orange-600"
               href="https://goldipl.github.io/Marcin-Programuje/"
             >
               goldipl
