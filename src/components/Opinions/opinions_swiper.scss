@@ -1,7 +1,7 @@
 @import "./../../scss/common/variables.scss";
 
 .swiper {
-  &#opinions {
+  &.opinions-swiper {
     height: 400px;
     width: 100%;
     .swiper-button-prev {

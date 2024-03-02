@@ -45,10 +45,11 @@ export default () => {
 
   return (
     <>
-      <h1 className="text-5xl pt-16 text-center">Opinie</h1>
+      <h1 className="text-5xl text-center pt-32" id="opinions">
+        Opinie
+      </h1>
       <Swiper
-        className="relative"
-        id="opinions"
+        className="relative opinions-swiper"
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
