@@ -12,8 +12,8 @@ const AfluxInfo = () => {
 
   return (
     <div className="flex bg-green-50 w-full justify-center">
-      <div className="flex flex-row container mx-xl py-32 justify-center items-center">
-        <div className="flex flex-col" data-aos="fade-right">
+      <div className="flex flex-col lg:flex-row container mx-xl py-32 justify-center items-center">
+        <div className="flex flex-col mx-4 mb-12 lg:m-0" data-aos="fade-right">
           <img
             className="flex rounded-full"
             src={hands_img.src}
@@ -22,34 +22,34 @@ const AfluxInfo = () => {
             height={540}
           />
         </div>
-        <div className="flex flex-col ml-16" data-aos="fade-up">
-          <h1 className="text-5xl mb-8">
+        <div className="flex flex-col mx-8 lg:ml-16" data-aos="fade-up">
+          <h1 className="text-4xl lg:text-5xl mb-8">
             <p>Aflux®</p>
             <p>- przyszłość jest dziś</p>
           </h1>
-          <p className="text-lg mb-8">
+          <p className="text-sm lg:text-lg mb-8">
             Krem do ciała poprawiający jędrność i sprężystość skóry, <br></br>
             wygładzający pory i nadający skórze świetlisty blask.
           </p>
-          <h2 className="text-2xl">
+          <h2 className="text-xl lg:text-2xl">
             W czym nasz produkt jest lepszy od innych?
           </h2>
           <ul className="my-4 pl-4">
             <li
-              className="relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
+              className="text-sm lg:text-lg relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
             before:bg-green-500 before:rounded-full before:border before:border-green-600"
             >
               Bogata formuła skladników
             </li>
             <li
-              className="relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
+              className="text-sm lg:text-lg relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
             before:bg-green-500 before:rounded-full before:border before:border-green-600"
             >
               Potwierdzona skuteczność niezliczoną ilością <br></br>badań
               laboratoryjnych
             </li>
             <li
-              className="relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
+              className="text-sm lg:text-lg relative my-2 before:inline-block before:w-3 before:h-3 before:mr-4
             before:bg-green-500 before:rounded-full before:border before:border-green-600 after:inline-block"
             >
               Źródło wielu składników odżywczych
