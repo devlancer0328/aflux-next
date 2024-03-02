@@ -64,3 +64,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ![screenshot](./screenshots/aflux_screenshot01.jpg)
 ![screenshot](./screenshots/aflux_screenshot02.jpg)
+![screenshot](./screenshots/aflux_screenshot03.jpg)
