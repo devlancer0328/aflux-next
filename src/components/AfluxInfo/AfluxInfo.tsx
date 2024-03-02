@@ -24,7 +24,8 @@ const AfluxInfo = () => {
         </div>
         <div className="flex flex-col ml-16" data-aos="fade-up">
           <h1 className="text-5xl mb-8">
-            Aflux® <br></br>- przyszłość jest dziś
+            <p>Aflux®</p>
+            <p>- przyszłość jest dziś</p>
           </h1>
           <p className="text-lg mb-8">
             Krem do ciała poprawiający jędrność i sprężystość skóry, <br></br>
