@@ -1,6 +1,13 @@
 import React from "react";
-import PhotoAlbum, { Photo, PhotoAlbumProps } from "react-photo-album";
-import product_img from "@/images/products/product01.jpg";
+import PhotoAlbum, { PhotoAlbumProps } from "react-photo-album";
+import product_img01 from "@/images/products/product01.jpg";
+import product_img02 from "@/images/products/product02.jpg";
+import product_img03 from "@/images/products/product03.jpg";
+import product_img04 from "@/images/products/product04.jpg";
+import product_img05 from "@/images/products/product05.jpg";
+import product_img06 from "@/images/products/product06.jpg";
+import product_img07 from "@/images/products/product07.jpg";
+import product_img08 from "@/images/products/product08.jpg";
 
 interface PhotoType {
   src: string;
@@ -9,19 +16,19 @@ interface PhotoType {
 }
 
 const photos: PhotoType[] = [
-  { src: `${product_img.src}`, width: 400, height: 500 },
-  { src: `${product_img.src}`, width: 400, height: 500 },
-  { src: `${product_img.src}`, width: 400, height: 500 },
-  { src: `${product_img.src}`, width: 400, height: 500 },
-  { src: `${product_img.src}`, width: 400, height: 500 },
-  { src: `${product_img.src}`, width: 400, height: 500 },
-  { src: `${product_img.src}`, width: 400, height: 500 },
-  { src: `${product_img.src}`, width: 400, height: 500 },
+  { src: `${product_img01.src}`, width: 400, height: 500 },
+  { src: `${product_img02.src}`, width: 400, height: 500 },
+  { src: `${product_img03.src}`, width: 400, height: 500 },
+  { src: `${product_img04.src}`, width: 400, height: 500 },
+  { src: `${product_img05.src}`, width: 400, height: 500 },
+  { src: `${product_img06.src}`, width: 300, height: 500 },
+  { src: `${product_img07.src}`, width: 800, height: 500 },
+  { src: `${product_img08.src}`, width: 800, height: 500 },
 ];
 
 const Gallery: React.FC = () => {
   const albumProps: PhotoAlbumProps<PhotoType> = {
-    layout: "masonry",
+    layout: "rows",
     photos: photos,
   };
 
