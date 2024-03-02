@@ -13,6 +13,10 @@ Used technologies:
 - TailwindCSS
 - SCSS
 
+Used images source:
+
+- [Pexels](https://www.pexels.com/)
+
 ## Live link
 
 - https://goldipl.github.io/aflux-next/ :star:
