@@ -34,3 +34,15 @@
     }
   }
 }
+
+@media (max-width: 760px) {
+  .swiper {
+    &#start {
+      pointer-events: none;
+      .swiper-button-prev,
+      .swiper-button-next {
+        display: none;
+      }
+    }
+  }
+}
