@@ -34,15 +34,15 @@ export default () => {
     >
       <SwiperSlide>
         <img
-          className="h-screen w-screen object-cover select-none"
+          className="h-screen w-screen object-cover select-none object-bottom lg:object-center"
           src={img01.src}
           alt="img"
         />
-        <div className="absolute bottom-[20vh] lg:bottom-[10vw] left-[10vw] z-1">
+        <div className="absolute bottom-[5vh] lg:bottom-[10vw] left-[10vw] z-1">
           <h1 className="text-white text-2xl lg:text-7xl mb-5 lg:w-[800px] leading-tight">
             Wyjątkowe połączenie 10 składników
           </h1>
-          <p className="text-white text-sm lg:text-xl mb-5 lg:w-[600px] font-extralight">
+          <p className="text-white text-sm lg:text-xl mb-5 w-4/5 lg:w-[600px] font-extralight">
             Dzięki naszemu produktowi Twoja skóra zyska nowy blask, a
             samopoczucie zmieni się nie do poznania.
           </p>
@@ -54,11 +54,11 @@ export default () => {
           src={img02.src}
           alt="img"
         />
-        <div className="absolute bottom-[20vh] lg:bottom-[10vw] left-[10vw] z-1">
+        <div className="absolute bottom-[5vh] lg:bottom-[10vw] left-[10vw] z-1">
           <h1 className="text-white text-2xl lg:text-7xl mb-5 lg:w-[800px] leading-tight">
             Niesamowite efekty
           </h1>
-          <p className="text-white text-sm lg:text-xl mb-5 lg:w-[600px] font-extralight">
+          <p className="text-white text-sm lg:text-xl mb-5 w-4/5 lg:w-[600px] font-extralight">
             Stosując nasze kosmetyki efekty zauważysz już po 4 dniach od
             rozpoczęcia kuracji.
           </p>
@@ -70,11 +70,11 @@ export default () => {
           src={img03.src}
           alt="img"
         />
-        <div className="absolute bottom-[20vh] lg:bottom-[10vw] left-[10vw] z-1">
+        <div className="absolute bottom-[5vh] lg:bottom-[10vw] left-[10vw] z-1">
           <h1 className="text-white text-2xl lg:text-7xl mb-5 lg:w-[800px] leading-tight">
             Produkty dla każdego, niezależnie od wieku
           </h1>
-          <p className="text-white text-sm lg:text-xl mb-5 lg:w-[600px] font-extralight">
+          <p className="text-white text-sm lg:text-xl mb-5 w-4/5 lg:w-[600px] font-extralight">
             Produkty dopasowane dla każdego.
           </p>
         </div>
