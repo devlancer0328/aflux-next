@@ -33,7 +33,7 @@ const Gallery: React.FC = () => {
   };
 
   return (
-    <div className="p-10 bg-white">
+    <div className="py-32 bg-white" id="gallery">
       <h1 className="text-5xl mt-8 mb-16 text-center">Galeria</h1>
       <div data-aos="fade-up">
         <PhotoAlbum {...albumProps} />
