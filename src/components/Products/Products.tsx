@@ -1,12 +1,15 @@
 import React from "react";
-import product_img from "@/images/products/product01.jpg";
+import product_img01 from "@/images/products/product01.jpg";
+import product_img02 from "@/images/products/product02.jpg";
+import product_img03 from "@/images/products/product03.jpg";
+import product_img04 from "@/images/products/product04.jpg";
 
 import "@/components/Products/products.scss";
 
 const Products = () => {
   const ProductsItemsList = [
     {
-      source: product_img.src,
+      source: product_img01.src,
       width: 300,
       height: 341,
       text: "Aflux krem",
@@ -15,17 +18,7 @@ const Products = () => {
         "Aflux, renomowana marka kosmetyków, prezentuje swoją najnowszą propozycję - krem do rąk o niezrównanej jakości i skuteczności. Ten wyjątkowy produkt został stworzony z myślą o pielęgnacji skóry dłoni, dbając jednocześnie o nawilżenie, odżywienie i ochronę. Formuła kremu została opracowana z użyciem najwyższej jakości składników, które doskonale pielęgnują i regenerują skórę. Bogate w substancje odżywcze i witaminy, krem głęboko nawilża skórę, przywracając jej elastyczność i miękkość. Dzięki zawartości naturalnych ekstraktów roślinnych, zapewnia on intensywną regenerację nawet najbardziej wysuszonej skóry.",
     },
     {
-      source: product_img.src,
-      width: 300,
-      height: 341,
-      text: "Aflux krem",
-      alt_text: "produkt",
-      text_description:
-        "Aflux, renomowana marka kosmetyków, prezentuje swoją najnowszą propozycję - krem do rąk o niezrównanej jakości i skuteczności. Ten wyjątkowy produkt został stworzony z myślą o pielęgnacji skóry dłoni, dbając jednocześnie o nawilżenie, odżywienie i ochronę. Formuła kremu została opracowana z użyciem najwyższej jakości składników, które doskonale pielęgnują i regenerują skórę. Bogate w substancje odżywcze i witaminy, krem głęboko nawilża skórę, przywracając jej elastyczność i miękkość. Dzięki zawartości naturalnych ekstraktów roślinnych, zapewnia on intensywną regenerację nawet najbardziej wysuszonej skóry.",
-    },
-
-    {
-      source: product_img.src,
+      source: product_img02.src,
       width: 300,
       height: 341,
       text: "Aflux krem",
@@ -35,7 +28,17 @@ const Products = () => {
     },
 
     {
-      source: product_img.src,
+      source: product_img03.src,
+      width: 300,
+      height: 341,
+      text: "Aflux krem",
+      alt_text: "produkt",
+      text_description:
+        "Aflux, renomowana marka kosmetyków, prezentuje swoją najnowszą propozycję - krem do rąk o niezrównanej jakości i skuteczności. Ten wyjątkowy produkt został stworzony z myślą o pielęgnacji skóry dłoni, dbając jednocześnie o nawilżenie, odżywienie i ochronę. Formuła kremu została opracowana z użyciem najwyższej jakości składników, które doskonale pielęgnują i regenerują skórę. Bogate w substancje odżywcze i witaminy, krem głęboko nawilża skórę, przywracając jej elastyczność i miękkość. Dzięki zawartości naturalnych ekstraktów roślinnych, zapewnia on intensywną regenerację nawet najbardziej wysuszonej skóry.",
+    },
+
+    {
+      source: product_img04.src,
       width: 300,
       height: 341,
       text: "Aflux krem",
