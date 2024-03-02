@@ -14,7 +14,7 @@ const Header: React.FC = () => {
   return (
     <header>
       {/* mobile menu */}
-      <div className="mobile-menu flex flex-col bg-white lg:hidden">
+      <div className="mobile-menu fixed z-30 w-full flex flex-col bg-white lg:hidden">
         <div className="inline-flex">
           <a className="inline-flex bg-white p-4 rounded-lg" href="/">
             <img src={logo.src} alt="logo" width={48} />
