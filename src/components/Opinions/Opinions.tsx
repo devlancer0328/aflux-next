@@ -46,7 +46,7 @@ export default () => {
   return (
     <>
       <h1
-        className="text-3xl lg:text-5xl text-center py-16 lg:pt-32"
+        className="text-3xl lg:text-5xl text-center py-16 lg:pt-32 lg:pb-0"
         id="opinions"
       >
         Opinie
