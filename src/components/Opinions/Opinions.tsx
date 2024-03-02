@@ -45,7 +45,10 @@ export default () => {
 
   return (
     <>
-      <h1 className="text-5xl text-center pt-32" id="opinions">
+      <h1
+        className="text-3xl lg:text-5xl text-center py-16 lg:pt-32"
+        id="opinions"
+      >
         Opinie
       </h1>
       <Swiper
@@ -67,7 +70,7 @@ export default () => {
         {Opinions.map((Opinion) => (
           <SwiperSlide>
             <div className="flex flex-col items-center justify-center h-full">
-              <p className="text-lg mb-2 w-[50vw] text-center">
+              <p className="text-sm lg:text-lg mb-2 w-[50vw] text-center">
                 {Opinion.opinion_text}
               </p>
               <p className="text-sm italic">~ {Opinion.opinion_author}</p>

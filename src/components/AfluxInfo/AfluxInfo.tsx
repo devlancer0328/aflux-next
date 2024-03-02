@@ -12,8 +12,8 @@ const AfluxInfo = () => {
 
   return (
     <div className="flex bg-green-50 w-full justify-center">
-      <div className="flex flex-col lg:flex-row container mx-xl py-32 justify-center items-center">
-        <div className="flex flex-col mx-4 mb-12 lg:m-0" data-aos="fade-right">
+      <div className="flex flex-col lg:flex-row container mx-xl py-16 lg:py-32 justify-center items-center">
+        <div className="flex flex-col mx-16 mb-12 lg:m-0" data-aos="fade-right">
           <img
             className="flex rounded-full"
             src={hands_img.src}
@@ -24,8 +24,10 @@ const AfluxInfo = () => {
         </div>
         <div className="flex flex-col mx-8 lg:ml-16" data-aos="fade-up">
           <h1 className="text-4xl lg:text-5xl mb-8">
-            <p>Aflux®</p>
-            <p>- przyszłość jest dziś</p>
+            <span className="flex">Aflux®</span>
+            <span className="inline-flex text-2xl lg:text-3xl">
+              - przyszłość jest dziś
+            </span>
           </h1>
           <p className="text-sm lg:text-lg mb-8">
             Krem do ciała poprawiający jędrność i sprężystość skóry, <br></br>
