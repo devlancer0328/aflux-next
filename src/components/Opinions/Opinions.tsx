@@ -44,11 +44,8 @@ export default () => {
   ];
 
   return (
-    <div className="bg-green-50 pb-12">
-      <h1
-        className="text-black text-2xl lg:text-4xl font-regular mt-16 text-center"
-        id="opinions"
-      >
+    <div className="bg-green-50 py-24" id="opinions">
+      <h1 className="text-black text-2xl lg:text-4xl font-regular mt-16 text-center">
         - Opinie -
       </h1>
       <Swiper
