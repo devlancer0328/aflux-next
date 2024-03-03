@@ -14,8 +14,8 @@ const Header: React.FC = () => {
   return (
     <header>
       {/* mobile menu */}
-      <div className="mobile-menu fixed z-30 w-full flex flex-col bg-white lg:hidden">
-        <div className="inline-flex">
+      <div className="mobile-menu fixed z-30 w-full flex flex-co lg:hidden">
+        <div className="w-[80px] bg-white">
           <a
             className="inline-flex bg-white p-2 px-4 rounded-lg"
             href="https://goldipl.github.io/aflux-next/"
@@ -25,18 +25,22 @@ const Header: React.FC = () => {
         </div>
         <div
           onClick={toggleMenu}
-          className={`hamburger-icon space-y-2 absolute top-2 right-0 px-4 py-4 z-10 bg-white cursor-pointer
+          className={`hamburger-icon space-y-2 absolute top-0 right-0 px-4 py-4 z-10 w-[64px] h-[64px] bg-white cursor-pointer
           ${openMenu ? "hidden" : ""}`}
         >
-          <span className="block h-0.5 w-8 bg-green-800"></span>
+          <span className="block h-0.5 w-8 mt-1 bg-green-800"></span>
           <span className="block h-0.5 w-8 bg-green-800"></span>
           <span className="block h-0.5 w-8 bg-green-800"></span>
         </div>
 
         <div onClick={toggleMenu}>
-          <div className="absolute top-2 right-0 px-4 py-4">
+          <div
+            className={`absolute bg-white top-0 right-0 px-4 py-4 ${
+              openMenu ? "" : "hidden"
+            }`}
+          >
             <svg
-              className="h-8 w-8 text-green-600"
+              className="h-8 w-8 text-green-800"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -49,7 +53,7 @@ const Header: React.FC = () => {
             </svg>
           </div>
           <ul
-            className={`nav-mobile flex flex-col items-center justify-between min-h-[250px] pb-4
+            className={`nav-mobile flex flex-col items-center justify-between bg-white min-h-[250px] pb-4 
             ${openMenu ? "" : "hidden"}`}
           >
             {HEADER_LINKS.map((link) => (
