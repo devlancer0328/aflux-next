@@ -25,25 +25,31 @@ const TextSection = () => {
           Aflux® to wysokiej jakości krem do rąk stworzony z myślą o intensywnej
           pielęgnacji suchej i zniszczonej skóry dłoni.
         </p>
-        <p
-          className="text-sm lg:text-lg font-extralight w-full lg:w-1/3 mb-4"
-          data-aos="fade-up"
-        >
+        <p className="text-sm lg:text-lg font-extralight w-full lg:w-1/3 mb-4">
           Jego unikalna formuła zawiera składniki odżywcze i nawilżające, takie
           jak masło shea, witamina E i ekstrakty roślinne, które głęboko
           penetrują skórę, przywracając jej miękkość i elastyczność.
         </p>
         <ul className="my-4 pl-4" data-aos="fade-up">
-          <li className="text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3">
+          <li
+            className="text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
+            data-aos="fade-up"
+          >
             Intensywne nawilżenie: Krem Aflux głęboko nawilża suchą skórę dłoni,
             przywracając jej miękkość i elastyczność.
           </li>
-          <li className="text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3">
+          <li
+            className="text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
+            data-aos="fade-up"
+          >
             Szybkie wchłanianie: Lekka formuła kremu szybko się wchłania, nie
             pozostawiając tłustej warstwy, co pozwala natychmiastowo wrócić do
             codziennych czynności.
           </li>
-          <li className="text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3">
+          <li
+            className="text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
+            data-aos="fade-up"
+          >
             Delikatny zapach: Krem Aflux ma delikatną, świeżą woń, która dodaje
             przyjemności każdej aplikacji, pozostawiając dłonie odświeżone i
             pachnące.
