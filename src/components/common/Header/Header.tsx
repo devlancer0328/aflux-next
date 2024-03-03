@@ -28,9 +28,9 @@ const Header: React.FC = () => {
           className={`hamburger-icon space-y-2 absolute top-2 right-0 px-4 py-4 z-10 bg-white cursor-pointer
           ${openMenu ? "hidden" : ""}`}
         >
-          <span className="block h-0.5 w-8 bg-green-600"></span>
-          <span className="block h-0.5 w-8 bg-green-600"></span>
-          <span className="block h-0.5 w-8 bg-green-600"></span>
+          <span className="block h-0.5 w-8 bg-green-800"></span>
+          <span className="block h-0.5 w-8 bg-green-800"></span>
+          <span className="block h-0.5 w-8 bg-green-800"></span>
         </div>
 
         <div onClick={toggleMenu}>
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
           >
             {HEADER_LINKS.map((link) => (
               <Link
-                className="p-4 uppercase text-green-600 hover:text-green-400 select-none"
+                className="p-4 uppercase text-green-800 hover:text-green-400 select-none"
                 href={link.href}
                 key={link.key}
               >
@@ -78,7 +78,7 @@ const Header: React.FC = () => {
           <div>
             {HEADER_LINKS.map((link) => (
               <Link
-                className="p-4 uppercase text-green-600 hover:text-green-400"
+                className="p-4 uppercase text-green-800 hover:text-green-400"
                 href={link.href}
                 key={link.key}
               >
