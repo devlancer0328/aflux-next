@@ -36,3 +36,16 @@
     }
   }
 }
+
+@media (max-width: 760px) {
+  .swiper {
+    &.opinions-swiper {
+      .swiper-button-prev {
+        left: 16px;
+      }
+      .swiper-button-next {
+        right: 16px;
+      }
+    }
+  }
+}
