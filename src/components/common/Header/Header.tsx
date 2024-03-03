@@ -53,7 +53,7 @@ const Header: React.FC = () => {
             </svg>
           </div>
           <ul
-            className={`nav-mobile flex flex-col items-center justify-between bg-white min-h-[250px] pb-4 
+            className={`nav-mobile flex flex-col items-center justify-between bg-white min-h-[250px]
             ${openMenu ? "" : "hidden"}`}
           >
             {HEADER_LINKS.map((link) => (
