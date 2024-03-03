@@ -25,7 +25,10 @@ const TextSection = () => {
           Aflux® to wysokiej jakości krem do rąk stworzony z myślą o intensywnej
           pielęgnacji suchej i zniszczonej skóry dłoni.
         </p>
-        <p className="text-sm lg:text-lg font-extralight w-full lg:w-1/3 mb-4">
+        <p
+          className="text-sm lg:text-lg font-extralight w-full lg:w-1/3 mb-4"
+          data-aos="fade-up"
+        >
           Jego unikalna formuła zawiera składniki odżywcze i nawilżające, takie
           jak masło shea, witamina E i ekstrakty roślinne, które głęboko
           penetrują skórę, przywracając jej miękkość i elastyczność.
