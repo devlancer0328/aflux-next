@@ -44,7 +44,7 @@ export default () => {
   ];
 
   return (
-    <>
+    <div className="bg-green-50">
       <h1
         className="text-black text-3xl lg:text-5xl text-center pt-16 lg:pt-32"
         id="opinions"
@@ -83,6 +83,6 @@ export default () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 };
