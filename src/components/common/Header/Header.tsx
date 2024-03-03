@@ -16,7 +16,10 @@ const Header: React.FC = () => {
       {/* mobile menu */}
       <div className="mobile-menu fixed z-30 w-full flex flex-col bg-white lg:hidden">
         <div className="inline-flex">
-          <a className="inline-flex bg-white p-2 px-4 rounded-lg" href="/">
+          <a
+            className="inline-flex bg-white p-2 px-4 rounded-lg"
+            href="https://goldipl.github.io/aflux-next/"
+          >
             <img src={logo.src} alt="logo" width={48} />
           </a>
         </div>
