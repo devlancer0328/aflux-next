@@ -38,6 +38,7 @@
 @media (max-width: 760px) {
   .swiper {
     &#start {
+      height: 100dvh;
       pointer-events: none;
       .swiper-button-prev,
       .swiper-button-next {
