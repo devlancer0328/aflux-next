@@ -24,8 +24,8 @@ const AfluxInfo = () => {
         </div>
         <div className="flex flex-col mx-8 lg:ml-16" data-aos="fade-up">
           <h1 className="text-4xl lg:text-5xl mb-8 text-black">
-            <span className="flex text-black">Aflux®</span>
-            <span className="inline-flex text-2xl lg:text-3xl text-black">
+            <span className="flex text-black mb-[-12px]">Aflux®</span>
+            <span className="inline-flex text-2xl lg:text-3xl font-light text-black">
               - przyszłość jest dziś
             </span>
           </h1>

@@ -53,7 +53,9 @@ const Products = () => {
   return (
     <div className="flex bg-white w-full justify-center" id="products">
       <div className="flex flex-col container py-16 lg:py-32 justify-center items-center">
-        <h1 className="text-black text-3xl lg:text-5xl mb-4">Nasze produkty</h1>
+        <h1 className="text-black text-2xl lg:text-4xl font-regular mt-8 mb-2 text-center">
+          - Nasze produkty -
+        </h1>
         <p className="text-black text-lg lg:text-xl font-light text-center">
           Sprawdź już dziś!
         </p>

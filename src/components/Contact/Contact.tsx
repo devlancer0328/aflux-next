@@ -5,8 +5,10 @@ import "@/components/Contact/contact.scss";
 const Contact = () => {
   return (
     <div className="flex bg-green-50 w-full justify-center" id="contact">
-      <div className="flex flex-col container mx-xl pt-16 pb-0 lg:py-24 justify-center items-center">
-        <h1 className="text-black text-3xl lg:text-5xl mb-16">Kontakt</h1>
+      <div className="flex flex-col container mx-xl lg:py-24 justify-center items-center">
+        <h1 className="text-black font-regular text-center text-2xl lg:text-4xl mt-12 mb-12 lg:mb-20 lg:mt-0">
+          - Kontakt -
+        </h1>
         <div className="relative flex flex-col lg:flex-row justify-between items-center w-full">
           <div className="flex flex-col border-4 border-green-800 w-full me-0 lg:me-8 h-[200px] px-4 lg:px-12 items-start justify-center shadow-inner">
             <p className="mb-2">

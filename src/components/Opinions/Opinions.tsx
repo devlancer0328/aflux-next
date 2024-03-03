@@ -44,12 +44,12 @@ export default () => {
   ];
 
   return (
-    <div className="bg-green-50">
+    <div className="bg-green-50 pb-12">
       <h1
-        className="text-black text-3xl lg:text-5xl text-center pt-16 lg:pt-32"
+        className="text-black text-2xl lg:text-4xl font-regular mt-16 text-center"
         id="opinions"
       >
-        Opinie
+        - Opinie -
       </h1>
       <Swiper
         className="relative opinions-swiper"
