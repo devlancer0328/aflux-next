@@ -16,22 +16,22 @@ const Header: React.FC = () => {
       {/* mobile menu */}
       <div className="mobile-menu fixed z-30 w-full flex flex-col bg-white lg:hidden">
         <div className="inline-flex">
-          <a className="inline-flex bg-white p-4 rounded-lg" href="/">
+          <a className="inline-flex bg-white p-2 px-4 rounded-lg" href="/">
             <img src={logo.src} alt="logo" width={48} />
           </a>
         </div>
         <div
           onClick={toggleMenu}
-          className={`hamburger-icon space-y-2 absolute top-4 right-0 px-4 py-4 z-10 bg-white cursor-pointer
+          className={`hamburger-icon space-y-2 absolute top-2 right-0 px-4 py-4 z-10 bg-white cursor-pointer
           ${openMenu ? "hidden" : ""}`}
         >
-          <span className="block h-0.5 w-8 animate-pulse bg-green-600"></span>
-          <span className="block h-0.5 w-8 animate-pulse bg-green-600"></span>
-          <span className="block h-0.5 w-8 animate-pulse bg-green-600"></span>
+          <span className="block h-0.5 w-8 bg-green-600"></span>
+          <span className="block h-0.5 w-8 bg-green-600"></span>
+          <span className="block h-0.5 w-8 bg-green-600"></span>
         </div>
 
         <div onClick={toggleMenu}>
-          <div className="absolute top-4 right-0 px-4 py-4">
+          <div className="absolute top-2 right-0 px-4 py-4">
             <svg
               className="h-8 w-8 text-green-600"
               viewBox="0 0 24 24"
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
             </svg>
           </div>
           <ul
-            className={`nav-mobile flex flex-col items-center justify-between min-h-[250px] 
+            className={`nav-mobile flex flex-col items-center justify-between min-h-[250px] pb-4
             ${openMenu ? "" : "hidden"}`}
           >
             {HEADER_LINKS.map((link) => (
