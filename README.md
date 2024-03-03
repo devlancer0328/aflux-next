@@ -1,6 +1,6 @@
 ## General info
 
-Aflux Next.js website ➡️ written using modern technologies like Next.js 13, TypeScript & TailwindCSS.
+Aflux Next.js website connected with beauty industry ➡️ written using modern technologies like Next.js 13, TypeScript, TailwindCSS suplemented with SCSS.
 
 ## Technologies
 
