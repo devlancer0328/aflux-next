@@ -78,7 +78,7 @@ All components have been built in such a way that new elements can be added dyna
 For example, to extend the menu with an additional navigation element, go to the file under the path:
 
 ```
-/src/componenets/constants/header-links.tsx
+/src/components/constants/header-links.tsx
 ```
 
 and add another line/object inside the `HEADER_LINKS` array:
@@ -97,7 +97,7 @@ export const HEADER_LINKS = [
 Similarly, to add a new product in the `Products.tsx` component, navigate to:
 
 ```
-/src/componenets/Products/Products.tsx
+/src/components/Products/Products.tsx
 ```
 
 and add a new Product typing a new object in `ProductsItemsList` array below:
