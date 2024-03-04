@@ -17,7 +17,7 @@ const Footer = () => {
             <ul className="flex flex-wrap m-4 text-center flex-col lg:flex-row items-start lg:items-center justify-between lg:last:me-0">
               {HEADER_LINKS.map((link) => (
                 <Link
-                  className="px-4 py-2 text-sm text-white hover:text-orange-600"
+                  className="px-4 py-2 text-sm text-white hover:text-green-600"
                   href={link.href}
                   key={link.key}
                 >

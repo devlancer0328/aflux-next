@@ -58,7 +58,7 @@ const Header: React.FC = () => {
           >
             {HEADER_LINKS.map((link) => (
               <Link
-                className="p-4 uppercase text-green-800 hover:text-green-400 select-none"
+                className="p-4 uppercase text-green-800 hover:text-green-600 select-none"
                 href={link.href}
                 key={link.key}
               >
