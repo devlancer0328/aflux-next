@@ -79,7 +79,7 @@ const Header: React.FC = () => {
       </div>
       {/* desktop menu */}
       <div
-        className={`hidden lg:flex desktop-menu fixed z-10 flex-row justify-center items-center w-screen bg-white h-[48px] top-[60px] shadow-sm shadow-green-600/10 ${
+        className={`hidden transition-all ease lg:flex desktop-menu fixed z-10 flex-row justify-center items-center w-screen bg-white h-[48px] top-[60px] shadow-sm shadow-green-600/10 ${
           scrollY > 0 ? "!top-0" : ""
         }`}
       >
