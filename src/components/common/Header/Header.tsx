@@ -1,18 +1,31 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { HEADER_LINKS } from "@/constants/header-links";
 import Link from "next/link";
 import logo from "@/images/aflux-logo.png";
 
 const Header: React.FC = () => {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
+  const [scrollY, setScrollY] = useState<number>(0);
 
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header>
+    <>
       {/* mobile menu */}
       <div className="mobile-menu fixed z-30 w-full flex flex-co lg:hidden">
         <div className="w-[80px] bg-white">
@@ -69,9 +82,13 @@ const Header: React.FC = () => {
         </div>
       </div>
       {/* desktop menu */}
-      <div className="hidden lg:flex desktop-menu fixed z-10 flex-row justify-center items-center w-screen bg-white h-[48px] top-[60px] shadow-sm shadow-green-600/10">
+      <div
+        className={`hidden lg:flex desktop-menu fixed z-10 flex-row justify-center items-center w-screen bg-white h-[48px] top-[60px] shadow-sm shadow-green-600/10 ${
+          scrollY > 0 ? "!top-0" : ""
+        }`}
+      >
         <div className="flex flex-row justify-between items-center xl:w-[60vw]">
-          <div>
+          <div className={`${scrollY > 0 ? "relative top-[28px] w-24" : ""}`}>
             <a
               className="flex bg-white p-4 rounded-lg shadow-sm shadow-green-600/10"
               href="/"
@@ -92,7 +109,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       </div>
-    </header>
+    </>
   );
 };
 
