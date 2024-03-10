@@ -7,13 +7,13 @@ import TextSection from "@/components/TextSection/TextSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col mx-auto justify-center">
+    <div className="flex flex-col mx-auto justify-center">
       <AfluxInfo />
       <Products />
       <TextSection />
       <Opinions />
       <Gallery />
       <Contact />
-    </main>
+    </div>
   );
 }
