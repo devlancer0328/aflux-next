@@ -2,6 +2,8 @@
 
 Aflux® is a Next.js website connected with beauty industry ➡️ written using modern technologies like Next.js 13, TypeScript, TailwindCSS extended with SCSS.  
 Aflux® website contains a section dedicated to describing what the product is, sections containing a detailed product description, reviews from our satisfied customers, photo galleries, and a contact section.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Technologies
 
@@ -18,13 +20,9 @@ Used technologies:
 
 - [Pexels](https://www.pexels.com/)
 
-## Live link
+## Live link :star:
 
-- https://goldipl.github.io/aflux-next/ :star:
-
-## Additional info
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- https://goldipl.github.io/aflux-next/
 
 ## How to open project locally?
 
@@ -54,11 +52,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
+## Learn More about Nexy.js
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -67,7 +61,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Possible option to Deploy on Vercel
+## Possible/another option to Deploy this App on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
