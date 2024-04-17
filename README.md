@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./src/images/aflux-logo.png" height="64"/>
+    <img src="./src/images/aflux-logo.png" height="120"/>
 </p>
 
 <h1 align="center">Aflux® website</h1>
