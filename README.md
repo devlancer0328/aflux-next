@@ -1,8 +1,13 @@
-## General info
+<p align="center">
+    <img src="./src/images/aflux-logo.png" height="64"/>
+</p>
 
-Aflux® is a Next.js website connected with beauty industry ➡️ written using modern technologies like Next.js 13, TypeScript, TailwindCSS extended with SCSS.
+<h1 align="center">Aflux® website</h1>
 
-Aflux® website contains a section dedicated to describing what the product is, sections containing a detailed product description, reviews from our satisfied customers, photo galleries, and a contact section.
+<p align="center">Aflux® is a Next.js website connected with beauty industry ➡️ written using modern technologies like Next.js 13, TypeScript, TailwindCSS extended with SCSS.</p>
+<p align="center">Aflux® website contains a section dedicated to describing what the product is, sections containing a detailed product description, reviews from our satisfied customers, photo galleries, and a contact section.</p>
+
+## Additional info
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).  
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
