@@ -4,7 +4,7 @@
 
 <h1 align="center">Aflux® website</h1>
 
-<p align="center">Aflux® is a Next.js website connected with beauty industry ➡️ written using modern technologies like Next.js 13, TypeScript, TailwindCSS extended with SCSS.</p>
+<p align="center">Aflux® is a Next.js website connected with beauty industry ➡️ written using modern technologies like Next.js 13, TypeScript, Tailwind CSS extended with SCSS.</p>
 <p align="center">Aflux® website contains a section dedicated to describing what the product is, sections containing a detailed product description, reviews from our satisfied customers, photo galleries, and a contact section.</p>
 
 ## Additional info
@@ -20,7 +20,7 @@ Used technologies:
 - Next.js
 - React.js
 - AoS.js
-- TailwindCSS
+- Tailwind CSS
 - SCSS
 
 ## Used images source:
