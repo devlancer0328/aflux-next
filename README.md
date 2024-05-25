@@ -29,14 +29,14 @@ Used technologies:
 
 ## Live link :star:
 
-- https://goldipl.github.io/aflux-next/
+- [https://goldipl.github.io/aflux-next/](https://aflux-next.vercel.app/)
 
 ## How to open project locally?
 
 Firstly clone this project locally using command below in your IDE:
 
 ```bash
-git clone https://github.com/goldipl/aflux-next.git
+git clone https://github.com/devlancer0328/aflux-next.git
 ```
 
 Secondly type:
