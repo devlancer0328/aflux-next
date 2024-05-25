@@ -29,7 +29,7 @@ Used technologies:
 
 ## Live link :star:
 
-- [https://goldipl.github.io/aflux-next/](https://aflux-next.vercel.app/)
+- https://aflux-next.vercel.app/
 
 ## How to open project locally?
 
